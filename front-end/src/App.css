@@ -1,0 +1,275 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+body {
+  font-family: AtlasGrotesk, sans-serif;
+}
+.homeimage{
+  top: 170px;
+  float: left;
+  margin-left: 250px;
+}
+.space{
+  margin-left: 5px;
+}
+.showtable
+{
+  width: 500px;
+  margin-left: 800px;
+}
+.tdalign{
+  text-align: left;
+}
+.logout{
+
+  margin-left: 1000px;
+}
+.showform{
+  margin-right: 800px;
+  width: 500px;
+}
+table.table-bordered{
+  border:2px solid #007ee5;
+  margin-top: 35px;
+}
+
+/*.ADD{*/
+/*margin-right: 900px;*/
+/*top: 120px;*/
+/*font-size: 25px;*/
+/*color: #007ee5;*/
+/*}*/
+
+/*.ADDE{*/
+/*font-size: 25px;*/
+/*color: #007ee5;*/
+/*}*/
+
+
+.AD{
+  margin-top: 50px;
+  float: left;
+  top: 10px;
+  font-size: 25px;
+}
+
+.notblue{
+  float: right;
+  color: black;
+  font-size: 12px;
+}
+.signinbutton
+{
+  float: right;
+}
+.forcreate{
+  float: right;
+  color: #007ee5;
+  font-size: 12px;
+}
+.signup{
+  top: 140px;
+  position: absolute;
+  width: 320px;
+  height: 300px;
+  right: 390px;
+}
+table {
+  width: 650px;
+}
+
+.signin{
+  top: 140px;
+  position: absolute;
+  width: 320px;
+  height: 300px;
+  right: 390px;
+}
+.LEFTBOX{
+  width: 200px;
+  height: 800px;
+  float: left;
+
+}
+.empty{
+  height: 150px;
+}
+.home{
+  text-align: left;
+  font-size: 25px;
+}
+.recent
+{
+  font-size: 14px;
+  text-align: left;
+}
+.form-group
+{
+  text-align: left;
+}
+.leftform{
+  display: inline-block;
+  text-align: left;
+  bottom:10px;
+  left: 15px;
+  font-family: AtlasGrotesk, sans-serif;
+}
+.LEFT-BOX{
+  width: 200px;
+  float: left;
+  height: 800px;
+  background-color: #edf2f4;
+}
+.rightbutton{
+  top:10px;
+  width: 15%;
+
+}
+.middle-box{
+  width: 80%;
+}
+.middle{
+  margin-left: 0px;
+}
+.star{
+
+}
+
+.forsignin{
+  float: left;
+  font-size: 18px;
+}
+h1{
+
+  color: #007ee5;
+  font-weight: bold;
+  height:150px;
+
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.dropbtn {
+  padding: 16px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 20px;
+  box-shadow: 0px 8px 6px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #f1f1f1;
+}
+
+.fileUpload {
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  left: 99px;
+  top: 200px;
+  width: 180px;
+}
+
+
+.activitytable{
+    border: 1px solid black;
+    text-align: left;
+}
+
+.directorylink{
+  position: relative;
+  margin: 10px;
+  left: 257px;
+  top: 200px;
+  width: 180px;
+  color: #007ee5;
+  right: 0;
+  cursor: pointer;
+}
+.glist {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.gname {
+  text-align: center;
+}
+.addmg {
+  position: absolute;
+  left: 390px;
+}
+
+
+
+
+
+
+
+
+
+.table{
+  width: 900px;
+}
+.table2
+{
+  width: 500px;
+}
+.fileUpload input.upload {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
